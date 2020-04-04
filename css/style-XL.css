@@ -1,0 +1,13 @@
+/* Default for all sizes */
+
+@font-face {
+    font-family: l-Spartan;
+    src: url('./assets/league-spartan/LeagueSpartan-Bold.otf');
+}
+
+
+/* XL*/
+
+body {
+    background-color: yellow;
+}

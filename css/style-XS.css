@@ -1,0 +1,181 @@
+/* Default for all sizes */
+
+@font-face {
+    font-family: l-Spartan;
+    src: url('./assets/league-spartan/LeagueSpartan-Bold.otf');
+}
+
+
+/* XS */
+
+
+/* --------------------------------------------------------------------------------- */
+
+body {
+    color: white;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+/* Color de fuente gris */
+
+.gris {
+    color: #7A7A7A;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, .3);
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+/* Navbar */
+
+.header {
+    background: url('./assets/fondo.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header .navbar {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+nav a img,
+#glogo {
+    width: 12rem;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+/* Principal div  */
+
+.header #slogan h1 {
+    font-family: l-Spartan;
+    font-size: 10vw;
+    color: white;
+    margin-top: 30vh;
+    margin-left: 1rem;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+/* Contact us */
+
+
+/* Style all font awesome icons */
+
+#contactanos a {
+    color: white;
+    text-decoration: none;
+}
+
+.fa {
+    width: 3.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Facebook */
+
+.fa-facebook {
+    background-color: #3B5998;
+    color: white;
+}
+
+
+/* Whatsapp */
+
+.fa-whatsapp {
+    background-color: #25D366;
+    color: white;
+}
+
+
+/* Instagram */
+
+.fa-instagram {
+    background-color: #EA6097;
+    color: white;
+}
+
+
+/* Mail  */
+
+.fa-envelope {
+    color: white;
+    background-color: #F03333;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+/* Beepic */
+
+#bee-pic {
+    background-image: url('./assets/beepic.jpg');
+    height: 25rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mision {
+    position: relative;
+    background-image: url('./assets/mision.jpeg');
+    height: 25rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.misionvision h3 {
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+}
+
+.misionvision h6 {
+    font-size: 1.8rem;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+}
+
+.misionvision {
+    width: 90%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+/* services */
+
+#servicios img {
+    border-radius: 50%;
+}
+
+#servicios h6 {
+    font-size: 1.5rem;
+}
