@@ -129,18 +129,17 @@ nav a img,
 
 #bee-pic {
     background-image: url('./assets/beepic.jpg');
-    height: 25rem;
+    height: 20rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-size: 70rem 60rem;
+    background-size: cover;
 }
 
 #mision {
     position: relative;
     background-image: url('./assets/mision.jpeg');
-    height: 25rem;
+    height: 20rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
