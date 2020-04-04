@@ -127,6 +127,23 @@ nav a img,
 
 /* Beepic */
 
+.parallax-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.parallax {
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #bee-pic {
     background-image: url('./assets/beepic.jpg');
     height: 25rem;

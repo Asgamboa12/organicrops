@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Animate CSS -->
-    <!-- <link rel="stylesheet" href="css/animate.css"> -->
+    <!-- Simple Parallax -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
     <!-- AOS Animate -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Font Awesome Icons -->
@@ -66,11 +66,19 @@
 
         <br>
 
-
-
-        <!-- Foto de abejorro  -->
-        <div id="bee-pic">
+        <div class="parallax-container">
+            <img src="css/assets/beepic.jpg" alt="" class="parallax">
+            <div class="centered">
+                <h6 data-aos="fade-up">Que rollo</h6>
+            </div>
         </div>
+
+
+
+
+        <!-- Foto de abejorro 
+        <div id="bee-pic">
+        </div> -->
 
 
         <!-- Servicios -->
@@ -157,6 +165,11 @@
     <!-- Init AOS -->
     <script>
         AOS.init();
+    </script>
+
+    <script>
+        var image = document.querySelector('.parallax');
+        new simpleParallax(image);
     </script>
 
 
